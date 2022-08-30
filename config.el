@@ -175,9 +175,9 @@
  "i" #'lsp-ui-peek-find-implementation
  "d" #'lsp-ui-peek-find-definitions)
 
-(use-package! git-link
-  :config
-  (setq git-link-use-commit t))
+;; (use-package! git-link
+;;   :config
+;;   (setq git-link-use-commit t))
 
 (map! :leader
       "l" #'git-link)
