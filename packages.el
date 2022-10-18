@@ -24,6 +24,12 @@
 
 (package! git-link)
 
+(package! kaocha-runner)
+
+(package! groovy-mode)
+
+;; (package! mermaid-mode)
+
 ;; If you'd like to disable a package included with Doom, you can do so here
 ;; with the `:disable' property:
                                         ;(package! builtin-package :disable t)
